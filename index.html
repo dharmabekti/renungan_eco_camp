@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7 Renungan Sebelum Makan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.7.1.min.js"
+    ></script>
+    <link
+      href="https://cdn.rawgit.com/objectivehtml/FlipClock/master/src/flipclock/css/flipclock.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.rawgit.com/objectivehtml/FlipClock/master/compiled/flipclock.min.js"></script>
+  </head>
+  <body>
+    <div class="divElement">
+      <div class="pomodoro">
+        <div id="clock" class="row">
+          <div class="timer"><div class="middle"></div></div>
+        </div>
+        <div class="container">
+          <div class="row" id="btns">
+            <audio
+              id="rain"
+              src="https://demo.neoproject.info/timer/assets/05.23.mp3"
+              preload="auto"
+            ></audio>
+            <audio
+              id="rainloop"
+              src="https://www.soundjay.com/nature/sounds/water-dripping-1.mp3"
+              preload="auto"
+            ></audio>
+            <button class="btn btn-primary" id="start">Start</button>
+            <button class="btn btn-warning" id="reload">Reload</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="count.js"></script>
+  </body>
+</html>
